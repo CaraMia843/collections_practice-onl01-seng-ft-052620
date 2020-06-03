@@ -23,3 +23,4 @@ def kesha_maker(names)
   names.map { |name| name[2] = "$" } 
   names
 end
+
