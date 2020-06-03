@@ -9,4 +9,9 @@ end
 def sort_array_char_count(array)
   array.sort { |a, b| a <=> b }
 end
+
+def swap_elements(array)
+  switch = array.pop
+  array.insert(1, switch)
+end
   
