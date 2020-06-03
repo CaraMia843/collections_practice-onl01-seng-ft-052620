@@ -15,3 +15,6 @@ def swap_elements(array)
   array.insert(1, switch)
 end
   
+def reverse_array(array)
+  array.reverse
+end
